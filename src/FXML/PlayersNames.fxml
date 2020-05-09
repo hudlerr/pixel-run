@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ; -fx-border-color: #E9AB8D; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <ImageView fitHeight="447.0" fitWidth="610.0" layoutX="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/4013873_orig.jpg" />
+         </image></ImageView>
+      <Button fx:id="startButton" layoutX="236.0" layoutY="278.0" mnemonicParsing="false" onAction="#handleStartButton" prefHeight="64.0" prefWidth="128.0" styleClass="." text="Start Game!">
+         <effect>
+            <DropShadow color="#9624bf" />
+         </effect>
+         <font>
+            <Font name="Rockwell" size="13.0" />
+         </font></Button>
+      <TextField fx:id="player1" layoutX="104.0" layoutY="140.0" opacity="0.9" promptText="Player one name">
+         <effect>
+            <DropShadow color="#4d20a8" />
+         </effect></TextField>
+      <TextField fx:id="player2" layoutX="368.0" layoutY="140.0" opacity="0.88" promptText="Player two name">
+         <effect>
+            <DropShadow color="#481697" />
+         </effect></TextField>
+      <ImageView fx:id="btnback" fitHeight="45.0" fitWidth="80.0" layoutX="14.0" layoutY="13.0" onMouseClicked="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/fe696dcfb337a49.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="57.0" layoutX="27.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/kidaha-04.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

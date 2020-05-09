@@ -1,0 +1,34 @@
+
+	   .label {
+   -fx-font-family: Lucida Sans Typewriter;
+   -fx-font-style: bold;
+   font-size: 22px;
+	}
+	
+	.scoreLabel {
+   -fx-font-family: Lucida Sans Typewriter;
+   -fx-font-style: bold;
+   font-size: 18px;
+	}
+	
+	.button {
+   -fx-font-family: Rockwell;
+   -fx-font-style: bold;
+   font-size: 14px;
+	}
+	
+	#anchor-StartPage {			
+    -fx-background-image: url("trees.jpg");
+	}
+
+	#anchor-PlayersNames {
+    -fx-background-image: url("4013873_orig.jpg");
+	}
+	
+	#anchor-Scoreboard {
+    -fx-background-image: url("city.png");
+	}
+
+	#anchor-LastPage {
+    -fx-background-image: url("sunset.jpg");
+	}
